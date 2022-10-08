@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.alegan.by/sitemap.xml
