@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="images/favicon.ico?v=2" type="image/x-icon">
+    <link rel="icon" href="../images/favicon.ico?v=2" type="image/x-icon">
     <link rel="stylesheet" type="text/css"
           href="//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <style>.ie-panel {
         display: none;
         background: #212121;
@@ -51,9 +51,12 @@
                             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav"><span></span>
                             </button>
                             <div class="rd-navbar-logo">
-                                <!--Brand--><a href="index.html"><img class="logo-small" src="images/logo-364x52.jpg"
-                                                                      alt="" width="182" height="26"/><img
-                                    class="logo-default" src="images/logo-638x310.jpg" alt="" width="319" height="155"/></a>
+                                <!--Brand-->
+                                <a href="../index.html"><img class="logo-small"
+                                                                         src="../images/logo-364x52.jpg"
+                                                                         alt="" width="182" height="26"/><img
+                                    class="logo-default" src="../images/logo-638x310.jpg" alt="" width="319"
+                                    height="155"/></a>
                             </div>
                             <button class="rd-navbar-info-toggle" data-rd-navbar-toggle=".rd-navbar-info"><span></span>
                             </button>
@@ -73,10 +76,23 @@
                 <div class="rd-navbar-section">
                     <div class="rd-navbar-container">
                         <ul class="rd-navbar-nav">
-                            <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Главная</a></li>
-                            <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">О нас</a></li>
-                            <li class="rd-nav-item active"><a class="rd-nav-link" href="services.html">Наши услуги</a></li>
-                            <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Контакты</a></li>
+                            <li class="rd-nav-item"><a class="rd-nav-link" href="../index.html">Главная</a></li>
+                            <li class="rd-nav-item"><a class="rd-nav-link" href="../about.html">О нас</a></li>
+                            <li class="rd-nav-item dropdown active">
+                                <a class="rd-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Услуги
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="service.html">Техническое обслуживание</a>
+                                    <a class="dropdown-item" href="repair.html">Ремонт оборудования</a>
+                                    <a class="dropdown-item" href="mounting.html">Монтаж оборудования</a>
+                                    <a class="dropdown-item" href="order.html">Заказ проекта</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item active" href="all.html">Все услуги</a>
+                                </div>
+                            </li>
+                            <li class="rd-nav-item"><a class="rd-nav-link" href="../contacts.html">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
@@ -84,7 +100,7 @@
         </div>
     </header>
     <!--Base typography-->
-    <section class="section-sm">
+    <section class="section-xs">
         <!--<div class="container">
             <div class="row row-30">
                 <div class="col-xl-8">
@@ -122,7 +138,7 @@
                     <div class="col-lg-10 col-xl-8">
                         <h3>Blockquote</h3>
                         <blockquote class="testimonial">
-                            <div class="testimonial-img"><img src="images/persons/person-05-170x168.jpg" alt=""
+                            <div class="testimonial-img"><img src="../images/persons/person-05-170x168.jpg" alt=""
                                                               width="170" height="168"/>
                             </div>
                             <div class="testimonial-inner">
@@ -186,14 +202,14 @@
                     </div>
                 </div>
             </div>
-        </div>-->
-        <!--Image Centered-->
-        <!--        <div class="offset-md text-center">
+        </div>
+        &lt;!&ndash;Image Centered&ndash;&gt;
+                <div class="offset-md text-center">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-10 col-xl-12">
                                 <h3>Image Centered</h3>
-                                <figure><img src="images/img-06-570x350.jpg" alt="" width="570" height="350"/>
+                                <figure><img src="../images/img-06-570x350.jpg" alt="" width="570" height="350"/>
                                     <figcaption>
                                         <p>Quality business services</p>
                                     </figcaption>
@@ -207,22 +223,22 @@
                     </div>
                 </div>-->
         <!--Image Left-->
-        <div class="section-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-xl-11">
-                        <h3>Техническое обслуживание</h3>
-                        <div class="row row-10">
-                            <div class="col-md-6"><img src="images/img-06-570x350.jpg" alt="" width="570" height="350"/>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Welcome to our wonderful world. We sincerely hope that each and every user entering
-                                    our website will find exactly what he/she is looking for. With advanced features of
-                                    activating account and new login widgets, you will definitely have a great
-                                    experience of using our web page.
-                                    <a class="custom-link" href="#"><span class="custom-link-icon fa-angle-right"></span></a>
-                                </p>
-                            </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-10 col-xl-11">
+                    <h3><a href="service.html">Техническое обслуживание</a></h3>
+                    <div class="row row-10">
+                        <div class="col-md-6"><img src="../images/img-06-570x350.jpg" alt="" width="570"
+                                                   height="350"/>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Техническое обслуживание чиллера - это жизненно важный для правильной работы
+                                и эксплуатации вид работ. По аналогии с Вашим автомобилем - Вы делаете техническое
+                                обслуживание (ТО) на нем, чтобы он ездил, радовал и не ломался, аналогично и для
+                                чиллера - это такая же машина, требующая сервис.
+                                <a class="custom-link" href="service.html"><span
+                                        class="custom-link-icon fa-angle-right" ></span></a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -235,11 +251,14 @@
                     <div class="col-lg-10 col-xl-11">
                         <h3>Image Right</h3>
                         <div class="row row-30 flex-md-row-reverse">
-                            <div class="col-md-6"><img src="images/img-06-570x350.jpg" alt="" width="570" height="350"/>
+                            <div class="col-md-6"><img src="../images/img-06-570x350.jpg" alt="" width="570"
+                                                       height="350"/>
                             </div>
                             <div class="col-md-6">
-                                <p>Welcome to our wonderful world. We sincerely hope that each and every user entering
-                                    our website will find exactly what he/she is looking for. With advanced features of
+                                <p>Welcome to our wonderful world. We sincerely hope that each and every user
+                                    entering
+                                    our website will find exactly what he/she is looking for. With advanced features
+                                    of
                                     activating account and new login widgets, you will definitely have a great
                                     experience of using our web page.</p>
                             </div>
@@ -259,7 +278,7 @@
     </footer>
 </div>
 <div class="form-output snackbars" id="form-output-global"></div>
-<script src="js/core.min.js"></script>
-<script src="js/script.js"></script>
+<script src="../js/core.min.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>
